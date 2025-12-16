@@ -14,7 +14,7 @@ export const GAME_DATA = {
           {
             id: "67_1",
             name: "67",
-            description: "",
+            description: " ",
             incomePerSecond: 40_000_000,
             cost: 12.5,
             currency: "USD",
@@ -24,7 +24,7 @@ export const GAME_DATA = {
           {
             id: "67_2",
             name: "67",
-            description: "",
+            description: " ",
             incomePerSecond: 60_000_000,
             cost: 17.5,
             currency: "USD",
@@ -43,7 +43,7 @@ export const GAME_DATA = {
           {
             id: "los67_1",
             name: "Los 67",
-            description: "",
+            description: " ",
             incomePerSecond: 101_000_000,
             cost: 30,
             currency: "USD",
@@ -53,7 +53,7 @@ export const GAME_DATA = {
           {
             id: "los67_2",
             name: "Los 67",
-            description: "",
+            description: " ",
             incomePerSecond: 157_000_000,
             cost: 37.5,
             currency: "USD",
