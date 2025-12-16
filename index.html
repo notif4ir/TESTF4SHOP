@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>F4IR Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <header class="top-bar">
+      <div class="brand">F4IR Shop</div>
+      <div class="header-right">
+        <input
+          id="buyerName"
+          class="buyer-input"
+          type="text"
+          placeholder="Your contact / @"
+        />
+        <button id="cartButton" class="cart-button">
+          Cart <span id="cartCount" class="cart-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="controls">
+        <div class="game-select-row">
+          <label class="select-label" for="gameSelect">Game</label>
+          <select id="gameSelect" class="select">
+            <!-- Games injected from data.js -->
+          </select>
+        </div>
+
+        <div class="list-header">
+          <div class="list-header-left">
+            <span class="list-title" id="listTitle">Select a game</span>
+          </div>
+          <div class="list-header-right">
+            <label class="select-label" for="sortSelect">Sort types</label>
+            <select id="sortSelect" class="select">
+              <option value="none">None</option>
+              <option value="costAsc">Lowest to Highest cost</option>
+              <option value="costDesc">Highest to Lowest cost</option>
+              <option value="incomeAsc">Lowest to Highest generation</option>
+              <option value="incomeDesc">Highest to Lowest generation</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <!-- Brainrot rows injected here -->
+      </section>
+    </main>
+
+    <div class="cart-sheet-backdrop" id="cartSheetBackdrop"></div>
+    <aside class="cart-sheet" id="cartSheet">
+      <div class="cart-sheet-header">
+        <span>Cart</span>
+        <button id="closeCart" class="icon-button">✕</button>
+      </div>
+      <div class="cart-sheet-body" id="cartItems">
+        <!-- Cart items -->
+      </div>
+      <div class="cart-sheet-footer">
+        <div class="cart-summary">
+          <span>Total:</span>
+          <span id="cartTotal">$0</span>
+        </div>
+        <button id="cashoutButton" class="cashout-button">
+          Cashout
+        </button>
+      </div>
+    </aside>
+
+    <div class="game-modal-backdrop" id="gameModalBackdrop"></div>
+    <div class="game-modal" id="gameModal">
+      <div class="game-modal-header">
+        <div class="game-modal-title-group">
+          <div class="game-modal-pill">Types</div>
+          <div class="game-modal-title" id="gameModalTitle"></div>
+          <div class="game-modal-subtitle" id="gameModalSubtitle"></div>
+        </div>
+        <button id="closeGameModal" class="icon-button">✕</button>
+      </div>
+      <div class="game-modal-body" id="gameModalBody">
+        <!-- Product types injected -->
+      </div>
+    </div>
+
+    <div class="toast-container" id="toastContainer"></div>
+  </div>
+
+  <script type="module" src="./data.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
+
