@@ -9,7 +9,7 @@ export const GAME_DATA = {
         label: "67",
         subtitle: "Default [$7.5M/s]",
         imageUrl:
-          "https://static.wikia.nocookie.net/stealabr/images/4/40/Fourtyone.png/revision/latest?cb=20251014024859",
+          "https://tr.rbxcdn.com/180DAY-12a9b23e468a334c08bf3c7dcb3fbd6b/420/420/BackAccessory/Webp/noFilter",
         products: [
           {
             id: "67_1",
@@ -38,7 +38,7 @@ export const GAME_DATA = {
         label: "Los 67",
         subtitle: "Default [$22.5M/s]",
         imageUrl:
-          "https://static.wikia.nocookie.net/stealabr/images/d/db/Los-67.png/revision/latest?cb=20251103171526",
+          "https://cdn.shopify.com/s/files/1/0837/8712/0919/files/Los-67_600x600.webp?v=1759812811",
         products: [
           {
             id: "los67_1",
