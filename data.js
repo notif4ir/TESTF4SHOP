@@ -16,8 +16,8 @@ export const GAME_DATA = {
             name: "67",
             description: " ",
             incomePerSecond: 40_000_000,
-            cost: 12.5,
-            currency: "USD",
+            cost: 50,
+            currency: "ZŁ",
             tag: "Recommended",
             stock: 1
           },
@@ -26,8 +26,8 @@ export const GAME_DATA = {
             name: "67",
             description: " ",
             incomePerSecond: 60_000_000,
-            cost: 17.5,
-            currency: "USD",
+            cost: 65,
+            currency: "ZŁ",
             tag: "Very Good",
             stock: 1
           }
@@ -45,8 +45,8 @@ export const GAME_DATA = {
             name: "Los 67",
             description: " ",
             incomePerSecond: 101_000_000,
-            cost: 30,
-            currency: "USD",
+            cost: 100,
+            currency: "ZŁ",
             tag: "Recommended",
             stock: 1
           },
@@ -55,8 +55,8 @@ export const GAME_DATA = {
             name: "Los 67",
             description: " ",
             incomePerSecond: 157_000_000,
-            cost: 37.5,
-            currency: "USD",
+            cost: 105,
+            currency: "ZŁ",
             tag: "Very Good",
             stock: 1
           }
